@@ -1,0 +1,380 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #344051;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url("../img/boy.png") 90% 100%/auto 85% no-repeat, 
+                url("../img/bg.jpg") center/cover no-repeat;
+    
+}
+
+.title__container {
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 12px;
+    padding: 0px 16px;
+    margin: 50px 14px 14px 14px
+}
+
+section h2 {
+    text-align: center;
+    padding-top: 105px;
+    font-size: 30px;
+    color: #263244;
+    font-weight: 600;
+}
+
+section .line {
+    width: 70px;
+    height: 4px;
+    background-color: #d17700;
+    margin: 34px auto 0px auto;
+}
+
+.about p {
+    text-align: center;
+    color: #263244;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.about img {
+    display: block;
+    margin: 95px auto 0px auto;
+}
+
+.about .button__container {
+    text-align: center;
+    margin: 35px 0px;
+}
+
+.about .button {
+    display: inline-block;
+    border: 1px solid #263244;
+    border-radius: 5px;
+    color: #263244;
+    padding: 8px 8px 8px 15px;
+    background: url(../img/about_icon.png) no-repeat 0% 50%;
+    margin-bottom: 95px;
+}
+
+.skill {
+    background: url(../img/skill_bg.jpg) center/cover no-repeat;
+}
+
+.group {
+    text-align: center;
+    /* margin-top: 100px; */
+    padding-bottom: 90px;
+}
+
+.group article {
+    display: inline-block;
+    /* width: 10%; */
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.skill article {
+    width: 10%;
+}
+
+.skill h3 {
+    color: #cf7600;
+    font-weight: bold;
+    margin: 35px 0px 15px 0px;
+}
+
+.skill p {
+    line-height: 1.5;
+    color: #263244;
+}
+
+.case-content__container {
+    margin: 40px 365px 200px 390px;
+}
+
+.case-content__container>p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #263244;
+}
+
+.case-content__container img {
+    margin-bottom: 40px;
+} 
+
+.case-content>div {
+    float: left;
+}
+
+.case-content h3 {
+    color: #263244;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.case-content p {
+    margin: 15px 0;
+    line-height: 1.5;
+    color: #263244;
+}
+
+.case-company {
+    width: 20%;
+}
+
+.case-company input {
+    border: 1px solid #63b5ae;
+    border-radius: 5px;
+    background-color: #63b5ae;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.case-project {
+    width: 80%;
+}
+
+.price-content__container {
+    margin: 55px 535px 140px 490px;
+}
+
+.price h3 {
+    color: #263244;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.price select {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0 30px 0;
+    background-color: #eeeeee;
+    color: #737373;
+}
+
+.price hr {
+    width: 100%;
+    height: 2px;
+    background-color: #d1d1d1;
+}
+
+.price p {
+    margin-top: 20px;
+    color: #1c2534;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price .name {
+    float: left;
+    width: 50%;
+}
+
+.price .counter {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.stats {
+    background: url("../img/stats-bg.jpg") no-repeat center/cover;
+}
+
+.stats .group h3 {
+    color: #323e4f;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 35px 0;
+}
+
+.stats .group p {
+    font-size: 18;
+    color: #323e4f;
+    font-weight: 600;
+}
+
+.stats article {
+    margin: 0px 55px;
+}
+
+.comment {
+    text-align: center;
+}
+
+.comment-content__container {
+    margin: 0px 610px;
+}
+
+.comment img {
+    margin-top: 50px;
+}
+
+.comment p {
+    margin: 35px 0;
+    line-height: 1.5;
+    color: #243042;
+}
+
+.comment .circles {
+    display: inline-block;
+    margin-bottom: 90px;
+}
+
+.comment .first-circle {
+    background-color: #c96500;
+}
+
+.comment .second-circle, .third-circle {
+    background-color: #cfd2d7;
+}
+
+.comment .circles div {
+    display: inline-block;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px; 
+    margin: 0 7px;
+}
+
+.contact {
+    background: url("../img/contact-bg.jpg") ;
+}
+
+.contact-content__container {
+    text-align: center;
+    margin: 0px 590px;
+}
+
+.contact-content__container>p {
+    margin: 30px 0 40px 0;
+}
+
+.contact p, .contact h2, .contact h3 {
+    color: #fff;
+}
+
+.contact article p {
+    margin: 10px 0 30px 0;
+}
+
+.contact .group {
+    width: 100%;
+    padding: 0px;
+}
+
+.contact .group article {
+    margin: 0px 48px;
+}
+
+.contact h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 40px 0 45px 0;
+}
+
+.contact input, .contact textarea {
+    padding: 10px 0 10px 10px;
+}
+
+.contact input {
+    width: 45%;
+    margin: 10px 5px;
+}
+
+.contact textarea {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+.contact .contact-sub {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: Transparent;
+    color: #fff;
+    margin-bottom: 165px;
+    width: 15%;
+    padding: 15px 0;
+}
+
+.map {
+    height: 350px;
+    background: url("../img/map.jpg");
+}
+
+.map div {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 140px 920px 155px 860px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    font-size: 13px;
+    
+}
+
+footer {
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+    background-color: #354051;
+}
+
+
+
+
+
